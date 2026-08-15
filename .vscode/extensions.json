@@ -2,4 +2,7 @@
     "recommendations": [
         "ms-dotnettools.vscode-dotnet-runtime"
     ]
+},
+{
+    "yaml.schemas": {}
 }
