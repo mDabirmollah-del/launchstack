@@ -1,0 +1,149 @@
+Failed to change thinking level: Session is busy running turn 8b40a6be-09e1-471e-9aba-71e259816e5dFailed to switch model: Session is busy running turn 8b40a6be-09e1-471e-9aba-71e259816e5d  "yaml.schemas": {
+    "file:///c:/Users/ABIR/.vscode/extensions/continue.continue-2.1.0-win32-x64/config-yaml-schema.json": [
+      ".continue/**/*.yaml"
+    ],
+    "https://gitlab.com/appsemble/appsemble/-/raw/HEAD/packages/cli/assets/appsemblerc.schema.json": [
+      "file:///c:/Users/ABIR/.continue/config.yaml",
+      "file:///d:/AI-Project/ABIR/fertilizer-pdf-app/.continue/agents/new-config-1.yaml",
+      "file:///d:/AI-Project/ABIR/fertilizer-pdf-app/.github/pdf-font-check.yml"
+    ],
+    "https://www.schemastore.org/eslintrc.json": [
+      "file:///c:/Users/ABIR/.continue/config.yaml",
+      "file:///d:/AI-Project/ABIR/fertilizer-pdf-app/.continue/agents/new-config-1.yaml",
+      "file:///d:/AI-Project/ABIR/fertilizer-pdf-app/.github/pdf-font-check.yml"
+    ],
+    "https://raw.githubusercontent.com/devfile/api/v2.2.0/schemas/latest/devfile.json": [
+      ".devfile.yaml",
+      "devfile.yaml"
+    ],
+    "https://raw.githubusercontent.com/compose-spec/compose-go/master/schema/compose-spec.json": [
+      "docker-compose*.yaml",
+      "docker-compose*.yml"
+    ],
+    "https://raw.githubusercontent.com/microsoft/azure-pipelines-vscode/master/service-schema.json": [
+      "azure-pipelines*.yaml",
+      "azure-pipelines*.yml"
+    ],
+    "https://raw.githubusercontent.com/Azure/azure-dev/main/schemas/v1.0/azure.yaml.json": [
+      "azure.yaml"
+    ],
+    "https://www.schemastore.org/github-workflow.json": [
+      ".github/workflows/*.yaml",
+      ".github/workflows/*.yml"
+    ],
+    "https://raw.githubusercontent.com/serverlessworkflow/specification/main/schema/workflow.yaml": [
+      "serverless.yml"
+    ],
+    "https://raw.githubusercontent.com/spack/schemas/refs/heads/main/schemas/spack.json": [
+      "spack.yaml"
+    ],
+    "https://raw.githubusercontent.com/ansible/ansible-lint/main/src/ansiblelint/schemas/ansible.json#/$defs/playbook": [
+      "playbook*.yaml",
+      "playbook*.yml"
+    ],
+    "https://www.schemastore.org/kustomization.json": [
+      "kustomization*.yaml",
+      "kustomization*.yml"
+    ],
+    "https://goreleaser.com/static/schema.json": [
+      ".goreleaser.yaml"
+    ],
+    "https://raw.githubusercontent.com/helm-unittest/helm-unittest/refs/heads/main/schema/helm-testsuite.json": [
+      "tests/test-*.yaml"
+    ],
+    "https://www.schemastore.org/helmfile.json": [
+      "helmfile.yaml"
+    ],
+    "https://raw.githubusercontent.com/chuha1991/helm-diff/master/schema/helm-diff-schema.json": [
+      "helm-diff.yaml"
+    ],
+    "file:///c:/Users/ABIR/.vscode/extensions/ms-python.python-2026.7.2026080801-win32-x64/schemas/conda-environment.json": [
+      "environment*.yaml"
+    ],
+    "file:///c:/Users/ABIR/.vscode/extensions/ms-python.python-2026.7.2026080801-win32-x64/schemas/conda-meta.json": [
+      "meta*.yaml"
+    ],
+    "file:///c:/Users/ABIR/.vscode/extensions/ms-python.python-2026.7.2026080801-win32-x64/schemas/condarc.json": [
+      ".condarc"
+    ]
+  },
+  "redhat.telemetry.enabled": true,
+  "editor.formatOnSaveMode": "modifications",
+  "workbench.settings.applyToAllProfiles": [
+    "editor.formatOnSaveMode",
+    "editor.formatOnSave",
+    "files.autoSave",
+    "editor.allowVariableFontsInAccessibilityMode",
+    "editor.autoIndentOnPaste"
+  ],
+  "editor.allowVariableFontsInAccessibilityMode": true,
+  "editor.autoIndentOnPaste": true,
+  "explorer.confirmDelete": false,
+  "[dockercompose]": {
+    "editor.defaultFormatter": "redhat.vscode-yaml"
+  },
+  "files.autoSave": "afterDelay",
+  "continue.enableNextEdit": false,
+  "chat.mcp.serverSampling": {
+    "workiq (Agent Plugin): workiq": {
+      "allowedModels": [
+        "customendpoint/python/",
+        "openrouter/OpenRouter 2/ai21/jamba-large-1.7",
+        "openrouter/OpenRouter 2/aion-labs/aion-2.0",
+        "openrouter/OpenRouter 2/aion-labs/aion-3.0",
+        "openrouter/OpenRouter 2/aion-labs/aion-3.0-mini",
+        "openrouter/OpenRouter 2/anthropic/claude-3-haiku",
+        "openrouter/OpenRouter 2/anthropic/claude-fable-5",
+        "openrouter/OpenRouter 2/anthropic/claude-haiku-4.5",
+        "openrouter/OpenRouter 2/anthropic/claude-opus-4",
+        "openrouter/OpenRouter 2/anthropic/claude-opus-4.1",
+        "openrouter/OpenRouter 2/anthropic/claude-opus-4.5",
+        "openrouter/OpenRouter 2/anthropic/claude-sonnet-4",
+        "openrouter/OpenRouter 2/anthropic/claude-sonnet-4.5",
+        "openrouter/OpenRouter 2/anthropic/claude-sonnet-5",
+        "openrouter/OpenRouter 2/bytedance-seed/seed-1.6",
+        "openrouter/OpenRouter 2/bytedance-seed/seed-2.0-lite",
+        "openrouter/OpenRouter 2/deepseek/deepseek-chat",
+        "openrouter/OpenRouter 2/deepseek/deepseek-r1",
+        "openrouter/OpenRouter 2/google/gemini-2.5-flash",
+        "openrouter/OpenRouter 2/google/gemini-2.5-pro",
+        "openrouter/OpenRouter 2/google/gemini-3-flash-preview",
+        "openrouter/OpenRouter 2/google/gemma-4-26b-a4b-it",
+        "openrouter/OpenRouter 2/meta-llama/llama-3.1-70b-instruct",
+        "openrouter/OpenRouter 2/meta-llama/llama-4-maverick",
+        "openrouter/OpenRouter 2/mistralai/mistral-large",
+        "openrouter/OpenRouter 2/mistralai/mixtral-8x22b-instruct",
+        "openrouter/OpenRouter 2/openai/gpt-4",
+        "openrouter/OpenRouter 2/openai/gpt-4-turbo",
+        "openrouter/OpenRouter 2/openai/gpt-4.1",
+        "openrouter/OpenRouter 2/openai/gpt-4o",
+        "openrouter/OpenRouter 2/openai/gpt-5",
+        "openrouter/OpenRouter 2/openai/o1",
+        "openrouter/OpenRouter 2/openai/o3",
+        "openrouter/OpenRouter 2/qwen/qwen3-235b-a22b",
+        "openrouter/OpenRouter 2/qwen/qwen3-coder",
+        "openrouter/OpenRouter 2/z-ai/glm-4.5",
+        "agent-host-copilotcli:auto",
+        "copilotcli/auto",
+        "copilot/auto"
+      ]
+    }
+  },
+  "@azure.argTenant": "",
+  "chat.hookFilesLocations": {
+    ".github/hooks": true,
+    ".claude/settings.local.json": true,
+    ".claude/settings.json": true,
+    "~/.copilot/hooks": true,
+    "~/.claude/settings.json": true,
+    "~/.agents/hooks": true
+  },
+  "[jsonc]": {
+    "breadcrumbs.showArrays": true,
+    "editor.quickSuggestions": {
+      "strings": true
+    },
+    "editor.suggest.insertMode": "replace"
+  },
+  "[github-actions-workflow]": {}
+}
